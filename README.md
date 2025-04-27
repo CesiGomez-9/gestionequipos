@@ -9,10 +9,6 @@
 
 GestionEquipos
 
-Título del Proyecto
-
-GestionEquipos
-
 ¿De qué trata el proyecto?
 
 GestionEquipos es una aplicación web donde se pueden visualizar varios equipos de fútbol de diferentes países. Permite:
