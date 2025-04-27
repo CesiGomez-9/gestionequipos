@@ -12,44 +12,26 @@ GestionEquipos
 ¿De qué trata el proyecto?
 
 GestionEquipos es una aplicación web donde se pueden visualizar varios equipos de fútbol de diferentes países. Permite:
-
-Mostrar los equipos, el país y los jugadores de cada equipo.
-
-Editar y eliminar equipos y jugadores.
-
-Agregar nuevos equipos y jugadores.
-
-Eliminar equipos y jugadores de manera sencilla.
+1.Mostrar los equipos, el país y los jugadores de cada equipo.
+2.Editar y eliminar equipos y jugadores.
+3.Agregar nuevos equipos y jugadores.
+4.Eliminar equipos y jugadores de manera sencilla.
 
 Pasos para que funcione el proyecto
 
 1.Crear una base de datos en tu gestor de bases de datos preferido.
-
 2.Modificar el archivo .env y actualizar los datos de conexión a la base de datos.
-
 Ejecutar los siguientes comandos en el siguiente orden:
-
 3.php artisan migrate
-
 4.Ir a la siguiente ruta en tu navegador:
-
 http://gestionequipos.test/
-
 Ejecutar:
-
 5.npm run dev
-
 (Cuando termine, puedes cerrar el proceso presionando "X").
-
-Luego ejecutar:
-
-6.npm run build
-
-Finalmente, para poblar la base de datos con información inicial:
-
-7.php artisan db:seed
-
-
+Para poblar la base de datos con información inicial:
+6.php artisan db:seed
+Luego para finalizar ejecutar:
+7.npm run build
 
 
 
