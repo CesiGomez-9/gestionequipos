@@ -7,6 +7,56 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+GestionEquipos
+
+Título del Proyecto
+
+GestionEquipos
+
+¿De qué trata el proyecto?
+
+GestionEquipos es una aplicación web donde se pueden visualizar varios equipos de fútbol de diferentes países. Permite:
+
+Mostrar los equipos, el país y los jugadores de cada equipo.
+
+Editar y eliminar equipos y jugadores.
+
+Agregar nuevos equipos y jugadores.
+
+Eliminar equipos y jugadores de manera sencilla.
+
+Pasos para que funcione el proyecto
+
+1.Crear una base de datos en tu gestor de bases de datos preferido.
+
+2.Modificar el archivo .env y actualizar los datos de conexión a la base de datos.
+
+Ejecutar los siguientes comandos en el siguiente orden:
+
+3.php artisan migrate
+
+4.Ir a la siguiente ruta en tu navegador:
+
+http://gestionequipos.test/
+
+Ejecutar:
+
+5.npm run dev
+
+(Cuando termine, puedes cerrar el proceso presionando "X").
+
+Luego ejecutar:
+
+6.npm run build
+
+Finalmente, para poblar la base de datos con información inicial:
+
+7.php artisan db:seed
+
+
+
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
