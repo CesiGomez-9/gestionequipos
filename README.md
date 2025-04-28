@@ -28,6 +28,7 @@ Pasos para que funcione el proyecto
 2.Modificar el archivo .env y actualizar los datos de conexión a la base de datos.
 
 Ejecutar los siguientes comandos en el siguiente orden:
+
 3.php artisan migrate
 
 4.Ir a la siguiente ruta en tu navegador:
